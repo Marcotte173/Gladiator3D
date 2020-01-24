@@ -10,11 +10,11 @@ public class TakeDamage : MonoBehaviour
     HealthStatus armor;
     public void Go(int damage)
     {
-        if (armor.hp > 0 && armor.hp > damage) armor.hp -= damage;
+        if (armor.hp > 0 && armor.hp >= damage) armor.hp -= damage;
         else if (armor.hp > 0 && armor.hp < damage)
         {
             body.hp -= (damage - armor.hp);
-            armor.hp -= armor.hp;            
+            armor.hp -= armor.hp;
         }
         else body.hp -= damage;
     }

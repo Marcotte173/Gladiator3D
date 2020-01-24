@@ -47,6 +47,6 @@ public class HealthStatus : MonoBehaviour
             damaged = true;
             severelyDamaged = false;
         }
-        Status = (destroyed) ? "Destroyed" : (damaged) ? "Damaged" : (severelyDamaged) ? "Severely Damaged" : "Undamaged";
+        Status = (maxHp == 0) ? "None" : (destroyed) ? "Destroyed" : (damaged) ? "Damaged" : (severelyDamaged) ? "Severely Damaged" : "Undamaged";
     }
 }
