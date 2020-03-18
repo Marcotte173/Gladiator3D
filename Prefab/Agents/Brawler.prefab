@@ -4293,8 +4293,9 @@ MonoBehaviour:
   crit: 10
   defence: 10
   mitigation: 0
-  range: 1.5
+  range: 2
   attackSpeed: 2
+  size: 1
 --- !u!114 &1362296244768228298
 MonoBehaviour:
   m_ObjectHideFlags: 0

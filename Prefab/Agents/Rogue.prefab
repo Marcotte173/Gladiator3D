@@ -2994,8 +2994,9 @@ MonoBehaviour:
   crit: 10
   defence: 7
   mitigation: 0
-  range: 1.5
+  range: 2
   attackSpeed: 1
+  size: 1
 --- !u!114 &549447041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3008,6 +3009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a738e39ae2e2143bebc1cadc0838fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ranged: 0
 --- !u!114 &549447040
 MonoBehaviour:
   m_ObjectHideFlags: 0

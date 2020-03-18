@@ -1227,6 +1227,7 @@ MonoBehaviour:
   mitigation: 0
   range: 5
   attackSpeed: 2
+  size: 1
 --- !u!114 &7492406925872165318
 MonoBehaviour:
   m_ObjectHideFlags: 0

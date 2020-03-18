@@ -27,7 +27,7 @@ public class Control : MonoBehaviour
         transform.LookAt(target.transform);
         agent.SetDestination(target.transform.position);
         distance = Vector3.Distance(agent.transform.position, target.transform.position);
-        if (distance <= GetComponent<Info>().range)
+        if (distance <= GetComponent<Info>().range * GetComponent<Info>().size)
         {
             agent.speed = 0;
             GetComponent<Attack>().Go(target.GetComponent<Control>());
