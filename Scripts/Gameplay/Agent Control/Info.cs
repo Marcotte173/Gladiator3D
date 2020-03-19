@@ -17,7 +17,6 @@ public class Info : MonoBehaviour
     public int mitigation;
     public float range;
     public float attackSpeed;
-    public int size;
     
     // Start is called before the first frame update
     void Start()
