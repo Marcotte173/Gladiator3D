@@ -3105,6 +3105,7 @@ MonoBehaviour:
   mitigation: 0
   range: 5
   attackSpeed: 2
+  size: 1
 --- !u!114 &-5870099401926943493
 MonoBehaviour:
   m_ObjectHideFlags: 0

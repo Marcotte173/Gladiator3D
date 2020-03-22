@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Mirror;
 using System;
 
 public class RemoveSetUpBarrier : MonoBehaviour
@@ -19,7 +18,7 @@ public class RemoveSetUpBarrier : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && Barrier.activeSelf)
         {
             start = true;
-            Destroy(Barrier);
+            Barrier.SetActive(false);
         }
     }
 }

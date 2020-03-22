@@ -3365,8 +3365,8 @@ GameObject:
   - component: {fileID: 2989821946297501392}
   - component: {fileID: 7179175458465304434}
   - component: {fileID: -6140987001290937870}
-  - component: {fileID: -1821571962114039372}
   - component: {fileID: 274908267706995030}
+  - component: {fileID: 4126959057452881935}
   m_Layer: 0
   m_Name: Warrior Manequin
   m_TagString: B
@@ -3490,20 +3490,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f221743ed58482f4dbcc09c1a0122002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-1821571962114039372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2948946883731165022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bfce8474edd5148b16abf55abfe18d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 5928070182092625906, guid: ae403adc35cc5be4e8ee133b92de3211, type: 3}
-  team: A
 --- !u!136 &274908267706995030
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3518,6 +3504,20 @@ CapsuleCollider:
   m_Height: 2.527221
   m_Direction: 1
   m_Center: {x: 0, y: 0.7636103, z: 0}
+--- !u!114 &4126959057452881935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2948946883731165022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bfce8474edd5148b16abf55abfe18d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 5928070182092625906, guid: ae403adc35cc5be4e8ee133b92de3211, type: 3}
+  team: A
 --- !u!1 &2949010435832524670
 GameObject:
   m_ObjectHideFlags: 0

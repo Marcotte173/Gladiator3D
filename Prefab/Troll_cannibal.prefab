@@ -859,7 +859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b599cd9f726ef4ba8f4488d3f6efc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookSpeed: 0
+  lookSpeed: 1
 --- !u!114 &8555030705143481535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -896,8 +896,9 @@ MonoBehaviour:
   crit: 10
   defence: 10
   mitigation: 1
-  range: 1.5
+  range: 3
   attackSpeed: 2
+  size: 2
 --- !u!114 &90773233732490672
 MonoBehaviour:
   m_ObjectHideFlags: 0

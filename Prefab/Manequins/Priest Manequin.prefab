@@ -3061,8 +3061,8 @@ GameObject:
   - component: {fileID: 906912106427829158}
   - component: {fileID: 3318646713168171675}
   - component: {fileID: 3577151309637430320}
-  - component: {fileID: -6427616802780899665}
   - component: {fileID: -8719744138596944202}
+  - component: {fileID: -9066856573333406825}
   m_Layer: 0
   m_Name: Priest Manequin
   m_TagString: Untagged
@@ -3186,20 +3186,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f221743ed58482f4dbcc09c1a0122002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-6427616802780899665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939529856818034932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bfce8474edd5148b16abf55abfe18d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 4403742008241400133, guid: d454220934f210b49baf5c676de31199, type: 3}
-  team: A
 --- !u!136 &-8719744138596944202
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3214,6 +3200,20 @@ CapsuleCollider:
   m_Height: 2.5731864
   m_Direction: 1
   m_Center: {x: 0, y: 0.7865932, z: 0}
+--- !u!114 &-9066856573333406825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939529856818034932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bfce8474edd5148b16abf55abfe18d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 4403742008241400133, guid: d454220934f210b49baf5c676de31199, type: 3}
+  team: A
 --- !u!1 &939531712368773676
 GameObject:
   m_ObjectHideFlags: 0

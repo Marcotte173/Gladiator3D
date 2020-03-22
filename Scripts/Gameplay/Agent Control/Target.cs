@@ -9,7 +9,6 @@ public class Target : MonoBehaviour
     List<GameObject> opponentList;
     public GameObject target;
     NavMeshAgent agent;
-    public float distance;
     void Start()
     {
         if (GetComponent<Info>().team == "A") opponentList = GameManager.instance.teamB;
@@ -36,7 +35,7 @@ public class Target : MonoBehaviour
             //Target first
             target = opponentList[0];
             //Calculate Distance to target
-            distance = Vector3.Distance(agent.transform.position, opponentList[0].transform.position);
+            float distance = Vector3.Distance(agent.transform.position, opponentList[0].transform.position);
             //Check each other in the list
             foreach (GameObject c in opponentList)
             {

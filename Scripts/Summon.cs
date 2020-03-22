@@ -18,7 +18,7 @@ public class Summon : MonoBehaviour
         {
             agent = Instantiate(agent, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             agent.GetComponent<Info>().team = team;
-            if (team == "B") agent.GetComponent<Transform>().rotation = new Quaternion(0, 180, 0,0);
+            if (team == "B") agent.GetComponent<Transform>().rotation = new Quaternion(0, 180, 0, 0);
             Destroy(gameObject);
         }
     }

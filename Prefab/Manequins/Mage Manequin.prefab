@@ -4970,8 +4970,8 @@ GameObject:
   - component: {fileID: 8303965806317844003}
   - component: {fileID: 3013149097273852767}
   - component: {fileID: 8418311951947015811}
-  - component: {fileID: 415949529544945017}
   - component: {fileID: 2335969112155884390}
+  - component: {fileID: -6179205188011784716}
   m_Layer: 0
   m_Name: Mage Manequin
   m_TagString: B
@@ -5095,20 +5095,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f221743ed58482f4dbcc09c1a0122002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &415949529544945017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8260026452912784753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bfce8474edd5148b16abf55abfe18d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 4362643400864249837, guid: 7e06ea3e7f189e941952cd7d77b69eb6, type: 3}
-  team: A
 --- !u!136 &2335969112155884390
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5123,6 +5109,20 @@ CapsuleCollider:
   m_Height: 2.5882504
   m_Direction: 1
   m_Center: {x: 0, y: 0.7941251, z: 0}
+--- !u!114 &-6179205188011784716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8260026452912784753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bfce8474edd5148b16abf55abfe18d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 4362643400864249837, guid: 7e06ea3e7f189e941952cd7d77b69eb6, type: 3}
+  team: A
 --- !u!1 &8260030759111144621
 GameObject:
   m_ObjectHideFlags: 0

@@ -3882,7 +3882,7 @@ GameObject:
   - component: {fileID: 177519708998856499}
   - component: {fileID: 8919946119429102493}
   - component: {fileID: 1432879169553501697}
-  - component: {fileID: 250069455}
+  - component: {fileID: 4921851700453293204}
   m_Layer: 0
   m_Name: Brawler Manequin
   m_TagString: Untagged
@@ -4020,7 +4020,7 @@ CapsuleCollider:
   m_Height: 2.579604
   m_Direction: 1
   m_Center: {x: 0, y: 0.78980166, z: 0}
---- !u!114 &250069455
+--- !u!114 &4921851700453293204
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -8,7 +8,7 @@ public class Control : MonoBehaviour
 {
     NavMeshAgent agent;
     GameObject target;
-    float distance;
+    public float distance;
     public float lookSpeed;
     
 

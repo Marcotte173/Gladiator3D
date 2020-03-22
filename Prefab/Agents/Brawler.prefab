@@ -4271,6 +4271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b599cd9f726ef4ba8f4488d3f6efc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distance: 0
   lookSpeed: 0.5
 --- !u!114 &1191969252249376390
 MonoBehaviour:
@@ -4294,8 +4295,9 @@ MonoBehaviour:
   crit: 10
   defence: 10
   mitigation: 0
-  range: 1.5
+  range: 1.7
   attackSpeed: 2
+  size: 1
 --- !u!114 &1362296244768228298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4377,7 +4379,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  distance: 0
 --- !u!1 &5232900726962320900
 GameObject:
   m_ObjectHideFlags: 0

@@ -3347,8 +3347,8 @@ GameObject:
   - component: {fileID: 2971060484139116296}
   - component: {fileID: 7226632220442023550}
   - component: {fileID: -1410047218062320609}
-  - component: {fileID: -76141811182399355}
   - component: {fileID: -563161121783611218}
+  - component: {fileID: 6752349704788894525}
   m_Layer: 0
   m_Name: Rogue Manequin
   m_TagString: B
@@ -3467,20 +3467,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f221743ed58482f4dbcc09c1a0122002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-76141811182399355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2930271470465066356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23bfce8474edd5148b16abf55abfe18d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 5539513131671295630, guid: bbfd88e6e37189c44b87f07e4967cae8, type: 3}
-  team: A
 --- !u!136 &-563161121783611218
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3495,6 +3481,20 @@ CapsuleCollider:
   m_Height: 2.637219
   m_Direction: 1
   m_Center: {x: 0, y: 0.81860906, z: 0}
+--- !u!114 &6752349704788894525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2930271470465066356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bfce8474edd5148b16abf55abfe18d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 5539513131671295630, guid: bbfd88e6e37189c44b87f07e4967cae8, type: 3}
+  team: A
 --- !u!1 &2930278108584426266
 GameObject:
   m_ObjectHideFlags: 0

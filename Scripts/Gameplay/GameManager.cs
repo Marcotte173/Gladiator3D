@@ -7,18 +7,15 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public List<GameObject> teamA;
-    public List<GameObject> teamB;
-    public List<AddToNetworkList> networkList;   
+    public List<GameObject> teamB; 
 
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        foreach (AddToNetworkList a in networkList) if (a == null) networkList.Remove(a);        
+        for (int i = 0; i < GameInfo.summon.Count; i++)
+        {
+            GameObject agent = Instantiate(GameInfo.summon[i], new Vector3(-1 + i, 0, 2), Quaternion.identity);
+        }
     }
 }
