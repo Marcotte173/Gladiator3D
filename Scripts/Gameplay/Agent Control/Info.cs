@@ -18,6 +18,7 @@ public class Info : MonoBehaviour
     public float range;
     public float attackSpeed;
     public int size;
+    public int bladesDamage;
     
     // Start is called before the first frame update
     void Start()

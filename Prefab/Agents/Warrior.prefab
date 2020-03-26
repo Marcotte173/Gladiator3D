@@ -689,6 +689,7 @@ MonoBehaviour:
   range: 1.7
   attackSpeed: 1.5
   size: 1
+  bladesDamage: 2
 --- !u!114 &1804239172982740944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,6 +703,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ranged: 0
+  damage: 0
+  bladesDamage: 0
 --- !u!114 &1804239172982740945
 MonoBehaviour:
   m_ObjectHideFlags: 0

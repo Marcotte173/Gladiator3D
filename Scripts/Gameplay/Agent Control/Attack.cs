@@ -9,10 +9,12 @@ public class Attack : MonoBehaviour
     int damage;
     internal float attackSpeed;
     internal float timer;
+    int bladesDamage;
     void Start()
     {
         timer = attackSpeed = GetComponent<Info>().attackSpeed;
         damage = GetComponent<Info>().damage;
+        bladesDamage = GetComponent<Info>().bladesDamage;
     }
 
     internal void Go(Control target)
